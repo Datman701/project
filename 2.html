@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fortune Teller</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fortune-box">
+        <h1 id = "fortune-text">Magic Fortune Teller 🔮</h1>
+        
+        <div id="crystal-ball"></div>
+        
+        <div id="input-section">
+            <input type="text" 
+                   id="question-input" 
+                   placeholder="Ask your question...">
+            <br>
+            <button id="ask-button">Ask the Fortune Teller</button>
+        </div>
+
+        <p class="loading" id="loading-text">🔮 Consulting the crystal ball...</p>
+        
+        <div id="fortune-display"></div>
+    </div>
+
+
+    <div id="theme-buttons">
+        <button id="darkBtn">Dark</button>
+        <button id="lightBtn">Light</button>
+        <button id="magicBtn">Magic</button>
+    </div>
+
+    <div id="category-section">
+        <button class="category-btn" data-type="love">❤️ Love</button>
+        <button class="category-btn" data-type="career">💼 Career</button>
+        <button class="category-btn" data-type="luck">🍀 Luck</button>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
